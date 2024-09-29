@@ -18,7 +18,7 @@
         const tl = gsap.timeline();
 
         // Add animations using class selectors
-        tl.from(".heading", { duration: 1, opacity: 0, y: -50 }) // Fade in the heading from the top
+        tl.from(".heading", { duration: 1, opacity: 0, y: -50, yoyo:true,repeat:-1 }) // Fade in the heading from the top
           .from(".paragraph", { duration: 1, opacity: 0, y: 50 }, "-=0.5") // Fade in the paragraph from the bottom
           .from(".icon", { duration: 1, opacity: 0, scale: 0 }, "-=0.5"); // Fade and scale in the icon
       });

@@ -27,7 +27,7 @@ onMounted(() => {
       end:"top 30%",
       scrub: 4,
       pin:".square",
-      pinSpacing: true,
+      // pinSpacing: true,
       toggleActions:"play none none none",
       // toggleClass:"red",
       markers:{
